@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="output.css" rel="stylesheet" />
+    <link href="outputt.css" rel="stylesheet" />
   </head>
   <body
     class="bg-gradient-to-r to-purple-600 from-purple-700 text-white overflow-x-hidden"
   >
     <div class="">
       <header
-        class="fixed top-0 to-purple-600 from-purple-700 w-full p-5 items-center flex gap-3 hover:bg-purple-600 hover:shadow-md transition"
+        class="fixed top-0 bg-gradient-to-r to-purple-600 from-purple-700 w-full p-5 items-center flex gap-3 hover:bg-purple-600 hover:shadow-md transition z-10"
       >
         <div>
           <img
@@ -32,7 +32,6 @@
             </li>
           </ul>
         </nav>
-        <p class="">Aceitamos pix e dinheiro!</p>
       </header>
 
       <div class="px-7 mt-52 flex justify-between">
@@ -46,7 +45,9 @@
           <button
             class="text-3xl bg-purple-800 p-4 px-7 mt-6 rounded-full font-semibold hover:scale-110 transition"
           >
-            Garanta a sua
+            <a href="https://instagram.com/fremiotclothing" target="_blank">
+              Garanta a sua
+            </a>
           </button>
         </main>
         <main class="flex flex-row gap-5">
@@ -54,11 +55,12 @@
             class="bg-purple-800 w-1/2 p-4 rounded-full hover:scale-110 transition"
           >
             <img class="w-fit h-fit" src="./image/calca.png" />
-            <h2>Calça</h2>
+            <h2>Calça Scarlette</h2>
             <h2>Tamanho M</h2>
             <div class="flex">
               <p>R$</p>
               <h2 class="text-6xl font-bold">99</h2>
+              <p class="self-end">,00</p>
             </div>
           </div>
 
@@ -66,35 +68,43 @@
             class="bg-purple-800 w-fit h-fit p-4 rounded-full hover:scale-110 transition"
           >
             <img class="w-1/2 h-fit bg-contain" src="./image/cropped.png" />
-            <h2>Calça</h2>
-            <h2>Tamanho M</h2>
+            <h2>Vestido Chloe</h2>
+            <h2>Tamanho P</h2>
             <div class="flex">
               <p>R$</p>
               <h2 class="text-6xl font-bold">99</h2>
+              <p class="self-end">,00</p>
             </div>
           </div>
         </main>
       </div>
 
       <section id="about" class="w-1/4 p-7">
-        <h1 class="font-bold text-2xl">Sobre</h1>
-        <p class="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-          impedit, incidunt maxime dolor quae ipsa fuga dicta! Voluptatibus,
-          culpa laborum porro voluptatem sed recusandae aut, suscipit modi
-          dignissimos repellendus maiores!
+        <h1 class="font-bold text-4xl pb-4">Sobre</h1>
+        <p class="text-xl">
+          Encontrar a roupa perfeita para você pode ser um desafio. Mas não
+          procure além da Fremiot Clothing! Somos uma loja online de roupas
+          novas localizada na região da Grande Florianópolis.
         </p>
       </section>
 
-      <section id="produtos" class="w-1/4 p-7">
-        <h1 class="font-bold text-2xl">Produtos</h1>
-        <p class="mb-5">5 peças restantes! Aproveite!</p>
-        <div class="flex gap-5 max-w-1/2 items-center">
-          <img src="./image/1.PNG" alt="" />
-          <img src="./image/2.PNG" alt="" />
-          <img src="./image/3.PNG" alt="" />
-          <img src="./image/4.PNG" alt="" />
-          <img src="./image/5.PNG" alt="" />
+      <section id="produtos" class="relative p-7 flex flex-col">
+        <h1 class="font-bold text-4xl">Produtos</h1>
+        <p class="text-xl">Somente 7 peças disponíveis <br />
+          <p class="">Aceitamos pix e dinheiro!</p>
+        </p>
+        <button
+          class=" text-3xl w-1/5 bg-purple-800 p-4 px-7 mt-6 rounded-full font-semibold hover:scale-110 transition"
+        >
+          <a href="https://instagram.com/fremiotclothing" target="_blank">
+            Garanta a sua
+          </a>
+        </button>
+        <div
+          class="-z-10 absolute -top-10 flex gap-24 w-full items-end justify-center"
+        >
+          <img class="scale-125" src="./image/saia-mia.png" alt="" />
+          <img class="scale-125" src="./image/cropped2.png" alt="" />
         </div>
       </section>
     </div>
